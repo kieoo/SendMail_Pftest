@@ -1,0 +1,66 @@
+> What's New
+What's New in LoadRunner 12.53
+
+Highlights
+
+Git integration in VuGen
+64-bit replay support in various Java protocols and C Vuser protocol
+New PCoIP (remote access) protocol
+Enhanced SAPUI5 recording in TruClient
+HTTP Video Streaming (HTML5, HLS) support
+HTTP/2 support
+REST step-builder editor in VuGen
+JSON manipulation APIs
+Web - HTTP/HTML and Mobile Application - HTTP/HTML protocol unification
+Linux load generator improvements
+Enhancements to Java-based protocols
+Added in 12.53 Patch 2: Support for NV Insights
+ 
+
+ClosedNew Supported Technologies and Platforms
+ClosedVuGen Enhancements
+ClosedTruClient Enhancements
+ClosedGeneral Protocol Enhancements
+ClosedController Enhancements
+ClosedAnalysis Enhancements
+ClosedVirtual Table Server (VTS) Enhancements
+ClosedSecurity Enhancements
+ClosedInstallation Enhancements
+ClosedHelp Center Enhancements
+ClosedIntegrations with the latest HPE product versions
+ 
+
+For more details about the supported integrations for LoadRunner, see the Integration Support Matrices.
+
+For details about the supported versions, see the Product Availability Matrix, available from the Software Support site.
+
+ Back to top
+
+What's New in LoadRunner 12.50
+
+LoadRunner 12.53 includes the enhancements added to LoadRunner 12.50, as described below.
+
+JavaScript as a new scripting language for the Web - HTTP/HTML protocol, empowering scripting capabilities.
+
+Improvements in LoadRunner integration with HP Network Virtualization:
+Network Virtualization Analytics report provides advanced network performance breakdown, including optimization suggestions.
+
+Network Virtualization emulation provides support for additional protocols.
+
+TruClient record and replay is now supported in Chromium, enabling cross-browser capabilities such as the ability to record in one browser and replay in another.
+
+LoadRunner Help Center is accessible both locally and online.
+For details about these highlights, see the sections below and their associated links.
+
+ClosedNew supported technologies and platforms
+ClosedImproved HP Network Virtualization integration 
+ ClosedHP NV Analytics
+ ClosedProtocol enhancements
+ClosedVuGen replay summary improvements
+ClosedVuGen general usability improvements
+ClosedAnalysis improvements
+ClosedSecurity enhancements
+ClosedLoad generator improvements
+ClosedIncreased documentation accessibility
+ClosedIntegrations with latest HP product versions
+  Back to top

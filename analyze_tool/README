@@ -1,0 +1,20 @@
+方法一：
+包内包含两个程序：anti_analyze.py 和 cac_analyze.py 可以使用这两个包生成事务响应图：
+使用前，需要加载matplotlib包
+pip  install  -i  https://pypi.douban.com/simple  matplolib
+(ps: 没有安装pip 可以使用easy_install)
+分析图表使用方法：
+Python anti_analyze.py <运行antivirus测试后的da日志>
+Python anti_analyze.py <运行antivirus测试后的antivirus日志>
+Python cac_analyze.py <运行cac测试后的da日志>
+如：Python anti_analyze.py anti_anti_scena2.log
+就会在日志目录下生成曲线图和90%事务点
+方法二：
+不生成图像和数据（只在测试过程中使用，日志还是建议带回，使用方法一获取完整数据）
+Python anti_analyze_easy.py <运行antivirus测试后的da日志>
+Python anti_analyze_easy.py <运行antivirus测试后的antivirus日志>
+Python cac_analyze_easy.py <运行cac测试后的da日志>
+如：python anti_analyze_easy.py 360cost09031430.txt 
+输出日志：90%响应时间：87ms  90%每秒事务数成功：12/s
+antivirus cost time(ms)/avg/90 per: time: 14:58:23 y: 87.00 avg time(ms)
+antivirus success /s/90 per: time: 14:59:00 y: 12.00 success/s
